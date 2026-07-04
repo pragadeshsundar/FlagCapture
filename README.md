@@ -59,7 +59,7 @@ Useful commands include:
 nmap -sC -sV <Machine-IP>
 
 gobuster dir \
--u http://10.48.171.173 \
+-u http://Machine IP\
 -w /usr/share/wordlists/dirb/common.txt \
 -t 5 \
 --timeout 30s
