@@ -58,7 +58,11 @@ Useful commands include:
 ```bash
 nmap -sC -sV <Machine-IP>
 
-gobuster dir -u http://<Machine-IP> -w /usr/share/wordlists/dirb/common.txt
+gobuster dir \
+-u http://10.48.171.173 \
+-w /usr/share/wordlists/dirb/common.txt \
+-t 5 \
+--timeout 30s
 
 enum4linux <Machine-IP>
 ```
